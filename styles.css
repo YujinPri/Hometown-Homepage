@@ -1,0 +1,123 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Spinnaker", sans-serif;
+}
+
+img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+#hero-section{
+    background-image: url(images/QC.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 300px;
+    margin-bottom: 0;
+}
+
+#title {
+    background-color: #457B9D;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+#title-message {
+    background-color: #1D3557;
+    color: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+
+#activities-section{
+    background-color: #F1FAee;
+    padding: 100px 0 150px 0;
+    text-align: center;
+    margin: 0;
+    color: #1D3557;
+}
+
+.act-title{
+    margin: 0px;
+    padding-bottom: 70px;
+}
+
+#activities-places{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.places1, .places2, .places3 {
+    width: 350px;
+    padding: 0px 20px;
+}
+
+.upd, .circle, .park{
+    margin-bottom: 40px;
+}
+
+.place-title1, .place-title2, .place-title3{
+    margin: 40px 0;
+    font-weight: 900;
+}
+
+.place-body1, .place-body2, .place-body3{
+    margin: 60px 0;
+    font-weight: 300;
+}
+
+.place-details1, .place-details2, .place-details3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#guide-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
+}
+
+#per{
+    width: 300px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.guide-container{
+    background-color: #A8DADC;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    margin: 100px;
+}
+
+.guide-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
